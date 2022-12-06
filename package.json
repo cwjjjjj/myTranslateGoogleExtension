@@ -1,6 +1,15 @@
 {
-  "name": "myGoogleExtension",
+  "name": "chrome-translater-extension",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "cz": "git add . && git cz",
+    "czp": "yarn cz && git push -u origin HEAD"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
 }
