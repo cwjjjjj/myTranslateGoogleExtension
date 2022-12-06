@@ -5,3 +5,5 @@ npx esbuild src/content-script/index.mjs src/background/index.mjs --bundle --out
 cp src/*.css build/
 cp src/*.json build/
 cp src/*.png build/
+cp src/*.html build/
+cp src/*.js build
