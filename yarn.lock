@@ -140,35 +140,6 @@ esbuild@^0.15.17:
     esbuild-windows-64 "0.15.18"
     esbuild-windows-arm64 "0.15.18"
 
-eventsource-parser@^0.0.5:
-  version "0.0.5"
-  resolved "https://npm.midway.run/eventsource-parser/-/eventsource-parser-0.0.5.tgz#6041bf765ebced8ac83de9dc78754b7b919b7342"
-  integrity sha512-BAq82bC3ZW9fPYYZlofXBOAfbpmDzXIOsj+GOehQwgTUYsQZ6HtHs6zuRtge7Ph8OhS6lNH1kJF8q9dj17RcmA==
-
-expiry-map@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.midway.run/expiry-map/-/expiry-map-2.0.0.tgz#b441ee8e8865291ad9a542783076d33bae0f3582"
-  integrity sha512-K1I5wJe2fiqjyUZf/xhxwTpaopw3F+19DsO7Oggl20+3SVTXDIevVRJav0aBMfposQdkl2E4+gnuOKd3j2X0sA==
-  dependencies:
-    map-age-cleaner "^0.2.0"
-
-map-age-cleaner@^0.2.0:
-  version "0.2.0"
-  resolved "https://npm.midway.run/map-age-cleaner/-/map-age-cleaner-0.2.0.tgz#0196bc278f7244ddeb7ca0cb3df329b06241a44b"
-  integrity sha1-AZa8J49yRN3rfKDLPfMpsGJBpEs=
-  dependencies:
-    p-defer "^1.0.0"
-
-p-defer@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.midway.run/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
-  integrity sha1-n26xgvbJqozXQwBKfU+WsZaw+ww=
-
-uuid@^9.0.0:
-  version "9.0.0"
-  resolved "https://npm.midway.run/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
-  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
-
 webextension-polyfill@^0.10.0:
   version "0.10.0"
   resolved "https://npm.midway.run/webextension-polyfill/-/webextension-polyfill-0.10.0.tgz#ccb28101c910ba8cf955f7e6a263e662d744dbb8"

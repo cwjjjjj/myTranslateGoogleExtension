@@ -8,10 +8,7 @@
     "czp": "yarn cz && git push -u origin HEAD"
   },
   "dependencies": {
-    "esbuild": "^0.15.17",
-    "eventsource-parser": "^0.0.5",
-    "expiry-map": "^2.0.0",
-    "uuid": "^9.0.0"
+    "esbuild": "^0.15.17"
   },
   "devDependencies": {
     "webextension-polyfill": "^0.10.0"
