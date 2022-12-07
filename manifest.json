@@ -14,14 +14,12 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "background/index.js"
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://*/search*"],
-      "include_globs": ["*.google.*/*"],
-      "js": ["content-script/index.js"],
-      "css": ["styles.css"]
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
     }
   ]
 }
